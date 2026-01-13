@@ -60,3 +60,7 @@
     font-weight: 900;
     font-display: swap;
 }
+@font-face {
+    font-family: "풀무원";
+    src: url(../font/PulmuoneLOHASBold.woff);
+}
