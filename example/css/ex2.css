@@ -15,7 +15,8 @@ html{
 }
 .banner .head{
     padding: 20px 50px;
-    background-color: gray;
+    background-color: gray; 
+    /* opacity: 0.5; */
     margin-top: 250px;
 }
 .head h1{
