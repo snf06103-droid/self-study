@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Pretendard', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+address{
+    font-style: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+
+.inner-fram{
+    /* border: 1px solid red; */
+    width: 1440px;
+    margin: 75px auto;
+    text-align: center;
+}
+.inner-fram h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+.inner-fram p{
+    line-height: 140%;
+}
+.banner{
+    height: 441px;
+    background: url(../img/cafe.jpg) no-repeat 50% 50% / cover;
+    margin: 100px 0;
+}
+.inner-fram h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+    line-height: 100%;
+}
+.inner-fram ul li{
+    line-height: 100%;
+    margin: .5rem 0;
+}
