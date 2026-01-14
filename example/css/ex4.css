@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Pretendard';
+}
+.pul{
+    font-family: "풀무원";
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+address{
+    font-style: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+.banner{
+    background: url(../img/sub_vis01_02.jpg) no-repeat 50% 50% / cover;
+    height: 250px;
+    margin-bottom: 50px;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+main h1{
+    font-size: 30px;
+    text-align: left;
+    background: url(../img/sub_tit_line.gif) repeat-x 0 50% ;
+    margin-bottom: 100px;
+}
+main span{
+    background-color: #fff;
+    padding-right: 15px;
+}
+main h2{
+    font-size: 52px;
+    padding: 0 70px;
+    margin-bottom: 50px;
+}
+main em{
+    font-style: inherit;
+    color: #7EAE4B;
+}
+.content{
+    width: 630px;
+    padding: 40px 90px 50px;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+}
+.content h3{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.content p:first-of-type{
+    margin-bottom: 30px;
+}
