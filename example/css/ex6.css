@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+html{
+    font-size: 20px;
+    font-family: 'Pretendard';
+}
+.abo{
+    font-family: "Aboreto", system-ui;
+}
+#wrap .banner{
+    background: url(../img/banner1.png) no-repeat 50% 50% / cover;
+    height: 599px;
+}
+.banner{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    /* margin-bottom: 122px; */
+}
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.container .content1{
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 613px;
+    /* width: 1600px; */
+    padding-top: 200px;
+    /* margin: 0 auto; */
+}
+.content1 h2{
+    font-size: 150px;
+    line-height: 90%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.content1 p{
+    font-size: 1rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+.content2 figure{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+.content2 figure img{
+    width: 790px;
+    height: 434px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.content2 h3{
+    font-size: 2rem;
+    line-height: 140%;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+}
+.content2 .a{
+    margin-bottom: 10px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.content2 .b{
+    line-height: 140%;
+    text-transform: lowercase;
+}
