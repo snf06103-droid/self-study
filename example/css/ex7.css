@@ -1,0 +1,16 @@
+*{margin: 0;
+padding: 0;}
+
+.box{
+    border: 1px solid red;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* gap: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+.box div{
+    border: 1px solid blue;
+}
