@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 1rem;
+    font-weight: 400;
+}
+html{
+    font-size: 20px;
+    font-family: 'Pretendard';
+}
+.abo{
+    font-family: "Aboreto", system-ui;
+}
+.banner{
+    height: 599px;
+    background: url(../img/banjuk.png) no-repeat 50% 50% / cover ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.banner h1{
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.wrap .content{
+    width: 1600px;
+    margin: 0 auto;
+}
+.content h2{
+    font-size: 4rem;
+    line-height: 90%;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+}
+.content p{
+    padding: 1rem 0;
+    line-height: 140%;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+figure img{
+    width: 1000px;
+    height: 430px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+figure figcaption{
+    line-height: 140%;
+    text-transform: lowercase;
+}
